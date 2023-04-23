@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Button Collapse</title>
+    <link rel="stylesheet" href="/css/Styles.css" />
+  </head>
+  <body>
+    <button onclick="collapse();">Click me</button>
+    <button id="collapse">Button will hide</button>
+    <script>
+      function collapse() {
+        var x = document.getElementById("collapse");
+        if (x.style.display === "none") {
+          x.style.display = "inline";
+        } else {
+          x.style.display = "none";
+        }
+      }
+    </script>
+  </body>
+</html>

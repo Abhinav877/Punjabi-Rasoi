@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Punjabi Rasoi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Cinzel+Decorative:wght@400;600;700&family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="/css/Styles.css" />
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="icon" type="jpeg" href="/images/PR Logo.png" />
+  </head>
+  <body>
+    <!--navbar-->
+    <header>
+      <nav class="navbar collapsible">
+        <div class="navbar__header">
+          <a class="main__heading" href="#">Punjabi Rasoi</a>
+          <a href="#">
+            <div>
+              <svg class="icon navbar-icon-menu">
+                <use xlink:href="/icons/sprite.svg#menu"></use>
+              </svg>
+            </div>
+          </a>
+        </div>
+        <ul class="navbar__items collapsible__content">
+          <li class="navbar--item">
+            <a href="#">Home</a>
+            <div class="underline"></div>
+          </li>
+          <li class="navbar--item">
+            <a href="/pages/Menu.html">Menu</a>
+            <div class="underline"></div>
+          </li>
+          <li class="navbar--item">
+            <a href="/pages/Menu.html">Order</a>
+            <div class="underline"></div>
+          </li>
+          <li class="navbar--item">
+            <a href="/pages/contact-us.html">Contact</a>
+            <div class="underline"></div>
+          </li>
+          <li class="navbar--item">
+            <a href="/pages/gallery.html">Gallery</a>
+            <div class="underline"></div>
+          </li>
+          <a href="/pages/Log-in.html" class="navbar--item-login">
+            <svg class="icon navbar-icon">
+              <use xlink:href="/icons/sprite.svg#account"></use>
+            </svg>
+            <li class="navbar--item-content">Log in</li>
+          </a>
+        </ul>
+      </nav>
+    </header>
+    <!--Hero-->
+    <section>
+      <div class="hero">
+        <div class="hero__content" data-aos="fade-up">
+          <h2 class="hero__title main__heading">Punjabi Rasoi</h2>
+          <div class="hero__buttons">
+            <a href="/pages/Menu.html"
+              ><button type="button" class="btn btn--primary">
+                Make an Order
+              </button></a
+            >
+            <a href="#form"
+              ><button type="button" class="btn btn--primary">
+                Book a Table
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--introduction-->
+    <article
+      class="introduction"
+      data-aos="fade"
+      data-aos-delay="100"
+      data-aos-duration="500"
+    >
+      <h2 class="secondary__heading">punjabi Rasoi</h2>
+      <p>
+        Punjab, the land of the five rivers-Beas, Satluj, Chenab, Ravi and
+        Jhelum, is also called the land of milk and honey. Perhaps it would be
+        appropriate to call it the land of plenty!! Punjabi cooking and eating
+        are just like the Punjabi's themselves. It is simple and forthright.
+        Punjabi's are a hardworking and fun-loving community by nature with food
+        and merriment, very much a part of their lives. Punjabi cuisine is never
+        complicated. Bhunao is one of the main techniques of Punjabi cuisine,
+        especially for non-vegetarian cooking. It brings to mind images of
+        appetizing food. Being an agricultural state the staple food of Punjab
+        is wheat and to accompany hot rotis and parathas are a variety of the
+        most exotic vegetarian and non-vegetarian delights. Punjab-this side of
+        the border or that-is situated at the crossroads of the Silk Route. This
+        allowed the Punjabi's-Sikh, Hindu and Muslim to imbibe diverse culinary
+        influences. The proximity with Persia, Afghanistan and Central Asia gave
+        them a taste for fresh and dried fruits and exotic nuts. Punjabi cuisine
+        has always been strongly influenced by Mughal invaders who brought with
+        them the tradition of the great Tandoor and now Punjabi tandoori cooking
+        is celebrated as one of the most popular cuisines throughout the world.
+        Winter, in Punjab, brings in the season of the famous makki ki roti
+        (maize flour bread) and sarson ka saag(mustard leaf gravy). No meal is
+        complete without a serving of lassi (a sweet or salted drink made with
+        curd) or fresh curd and white butter which is consumed in large
+        quantities. Connoisseurs of the cuisine say that the gravy component of
+        Punjabi cuisine came from the Mughals. The most popular example is the
+        murg makhani. It served the state well to combine this influence in its
+        cooking since it had a lot of pure ghee and butter. Murg makhani also
+        provided a balance to tandoori chicken, which was dry because it was
+        charcoal cooked. Nans and parathas, rotis made of maize flour are
+        typical Punjabi breads. Of course, over the years the roti has been
+        modified to add more variety, so there is the rumali roti, the naan and
+        the laccha parathas, all cooked in the tandoor.
+      </p>
+    </article>
+    <!--top-picks-->
+    <section style="margin: 0 0 17rem 0">
+      <h2 id="top-picks-heading">our top picks</h2>
+      <div
+        class="cards grid grid--2x3"
+        data-aos="fade-up"
+        data-aos-duration="500"
+      >
+        <div class="card-container box-container card--left">
+          <picture>
+            <img src="/images/chicken biryani@3x.webp" alt="Chicken biryani" />
+          </picture>
+          <div class="card__content">
+            <h3 style="margin-top: 0.4rem">Chicken biryani</h3>
+            <button class="btn btn--secondary" type="button">Order Now</button>
+            <span class="item--price">€4.99</span>
+          </div>
+        </div>
+        <div class="card-container box-container card--center">
+          <picture>
+            <img src="/images/rajma chawal@3x.webp" alt="rajma chawal" />
+          </picture>
+          <div class="card__content">
+            <h3 style="margin-top: 0.4rem">Rajma chawal</h3>
+            <button class="btn btn--secondary" type="button">Order Now</button>
+            <span class="item--price">€3.99</span>
+          </div>
+        </div>
+        <div class="card-container box-container card--right">
+          <picture>
+            <img src="/images/Dal Makhani@3x.webp" alt="dal lmakhni" />
+          </picture>
+          <div class="card__content">
+            <h3 style="margin-top: 0.4rem">dal makhni</h3>
+            <button class="btn btn--secondary" type="button">Order Now</button>
+            <span class="item--price">€3.99</span>
+          </div>
+        </div>
+        <div class="card-container box-container card--left">
+          <picture>
+            <img src="/images/Sholay Bhature@3x.webp" alt="cholay" />
+          </picture>
+          <div class="card__content">
+            <h3 style="margin-top: 0.4rem">Cholay bathure</h3>
+            <button class="btn btn--secondary" type="button">Order Now</button>
+            <span class="item--price">€4.99</span>
+          </div>
+        </div>
+        <div class="card-container box-container card--center">
+          <picture>
+            <img src="/images/lassi@3x.webp" alt="lassi" />
+          </picture>
+          <div class="card__content">
+            <h3 style="margin-top: 0.4rem">lassi</h3>
+            <button class="btn btn--secondary" type="button">Order Now</button>
+            <span class="item--price">€1.99</span>
+          </div>
+        </div>
+        <div class="card-container box-container card--right">
+          <picture>
+            <img src="/images/Aloo Paratha@3x.webp" alt="aloo paratha" />
+          </picture>
+          <div class="card__content">
+            <h3 style="margin-top: 0.4rem">aloo paratha</h3>
+            <button class="btn btn--secondary" type="button">Order Now</button>
+            <span class="item--price">€2.99</span>
+          </div>
+        </div>
+      </div>
+      <a href="/pages/Menu.html" class="link">
+        <span id="link--text">view full menu</span>
+        <div>
+          <svg class="icon" id="link--icon">
+            <use xlink:href="/icons/sprite.svg#arrow right"></use>
+          </svg>
+        </div>
+      </a>
+    </section>
+    <!--Testimonial-->
+    <section class="testimonial">
+      <h2 class="testimonial__heading">customer opinions</h2>
+      <div class="grid grid--1x2">
+        <div class="testimonial__image__container">
+          <picture data-aos="fade-right">
+            <img
+              class="testimonial__image"
+              src="/images/restaurant.webp"
+              alt="restaurant"
+            />
+          </picture>
+        </div>
+        <div
+          data-aos="fade"
+          data-aos-duration="700"
+          class="comment-layout-container"
+        >
+          <div class="container box-container comment-container">
+            <div class="comment">
+              <div class="comment--content">
+                <div class="icon-comment">
+                  <svg class="icon">
+                    <use xlink:href="/icons/sprite.svg#account"></use>
+                  </svg>
+                </div>
+                <h3>Eren</h3>
+                <p>Amazing food and service.</p>
+              </div>
+            </div>
+          </div>
+          <div class="container box-container comment-container">
+            <div class="comment">
+              <div class="comment--content">
+                <div class="icon-comment">
+                  <svg class="icon">
+                    <use xlink:href="/icons/sprite.svg#account"></use>
+                  </svg>
+                </div>
+                <h3>Misa</h3>
+                <p>I love this restaurant 😍</p>
+              </div>
+            </div>
+          </div>
+          <div class="container box-container comment-container">
+            <div class="comment">
+              <div class="comment--content">
+                <div class="icon-comment">
+                  <svg class="icon">
+                    <use xlink:href="/icons/sprite.svg#account"></use>
+                  </svg>
+                </div>
+                <h3>Armen</h3>
+                <p>Best in the city..</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--form-->
+    <section id="form" data-aos="fade-up">
+      <div class="container input--container box-container">
+        <h2 class="styled__heading">book a table</h2>
+        <div class="input__section">
+          <div class="form-input">
+            <input class="input--text" type="text" placeholder="City" />
+          </div>
+          <div class="form-input">
+            <input
+              class="input--text"
+              placeholder="Date"
+              type="text"
+              onfocus="(this.type = 'date')"
+              id="date"
+              min="2021-08-01"
+              max="2021-09-31"
+            />
+          </div>
+          <div class="form-input">
+            <select class="input--text" id="people">
+              <option disabled selected>No. of people</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+          <div class="form-input">
+            <input class="input--text" type="text" placeholder="Name" />
+          </div>
+          <div class="form-input">
+            <input
+              class="input--text"
+              type="number"
+              min="0"
+              max="10"
+              placeholder="Phone no."
+            />
+          </div>
+          <div class="form-input">
+            <input class="input--text" type="email" placeholder="Email" />
+          </div>
+        </div>
+      </div>
+      <div class="form-btn">
+        <button type="button" class="btn btn--accent">submit</button>
+      </div>
+    </section>
+    <!--footer-->
+    <footer class="footer">
+      <div class="footer__top">
+        <div class="grid grid--1x3 footer-top-content">
+          <h2 class="main__heading">punjabi rasoi</h2>
+          <span>@2021 copyright. All right deserved</span>
+          <div class="footer-top-first">
+            <h2 class="footer__heading">usefull links</h2>
+            <ul class="footer__items">
+              <li><a href="Index.html">HOME</a></li>
+              <li><a href="/pages/Menu.html">ORDER</a></li>
+              <li><a href="/pages/Menu.html">MENU</a></li>
+              <li><a href="#">BLOG</a></li>
+              <li><a href="#">ABOUT US</a></li>
+              <li><a href="/pages/gallery.html">GALLERY</a></li>
+            </ul>
+          </div>
+          <div class="footer-top-second">
+            <h2 class="footer__heading">contact us</h2>
+            <ul class="footer__items">
+              <li>ADDRESS: 123 STREET DISTT, STATE, COUNTRY</li>
+              <li>PHONE NO: +123456789</li>
+              <li>EMAIL: abhinav.hanspal@gmail.com</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>@2021 copyright. All right deserved</span>
+        <div class="footer__icons">
+          <a href="https://www.instagram.com/abhinav_877/" target="blank">
+            <div class="icon--container">
+              <svg class="icon">
+                <use xlink:href="/icons/sprite.svg#instagram"></use>
+              </svg>
+            </div>
+          </a>
+          <a href="https://m.facebook.com/abhinav.hanspal" target="blank">
+            <div class="icon--container">
+              <svg class="icon">
+                <use xlink:href="/icons/sprite.svg#facebook"></use>
+              </svg>
+            </div>
+          </a>
+          <a href="https://twitter.com/abhinav_hanspal/" target="blank">
+            <div class="icon--container">
+              <svg class="icon">
+                <use xlink:href="/icons/sprite.svg#twitter"></use>
+              </svg>
+            </div>
+          </a>
+          <a href="https://mail.google.com/mail/u/0/#inbox" target="blank">
+            <div class="icon--container">
+              <svg class="icon">
+                <use xlink:href="/icons/sprite.svg#google"></use>
+              </svg>
+            </div>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="/Js/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
